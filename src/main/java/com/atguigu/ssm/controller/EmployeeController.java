@@ -30,6 +30,7 @@ public class EmployeeController {
         //将员工信息在请求域中共享
         model.addAttribute("list",list);
         //跳转到"employee_list.html"
+
         return "employee_list";
     }
 }
